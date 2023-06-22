@@ -1,0 +1,26 @@
+Algo Status:
+------------
+Pending
+Create
+Start
+Running
+Close
+End
+
+TargetOptions :
+
+{ value: "Points", label: "Points" },
+{ value: "Percentage", label: "Percentage" },
+
+StoplossOptions:
+
+{ value: "Points", label: "Points" },
+{ value: "Percentage", label: "Percentage" },
+
+TrailStoplossOptions:
+
+{ value: "Points", label: "Points" },
+{ value: "Percentage", label: "Percentage" },
+
+
+

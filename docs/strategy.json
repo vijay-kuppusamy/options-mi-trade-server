@@ -1,0 +1,112 @@
+{
+    "response": {
+        "id": 6,
+        "user": 4,
+        "name": "Short Strangle-10.00AM",
+        "type": "custom",
+        "settings": {
+            "strategyName": "",
+            "underlying": {
+                "value": "NIFTY",
+                "label": "NIFTY"
+            },
+            "expiry": {
+                "value": "0",
+                "label": "Current Week"
+            },
+            "positionsCount": "2",
+            "product": "MIS",
+            "target": false,
+            "targetType": {
+                "value": "PREMIUM-PCT",
+                "label": "Premium %"
+            },
+            "targetValue": 25,
+            "stoploss": false,
+            "stoplossType": {
+                "value": "PREMIUM-PCT",
+                "label": "Premium %"
+            },
+            "stoplossValue": 25,
+            "trailSL": false,
+            "trailSLType": {
+                "value": "Percentage",
+                "label": "Percentage"
+            },
+            "trailSLValue": 20,
+            "squareOffLegs": "partial",
+            "trailStopLossLegs": true,
+            "reentry": false,
+            "reentryCount": 2,
+            "reentryCutoffTime": "14:00",
+            "defineTime": true,
+            "entryTime": "10:00",
+            "exitTime": "15:00"
+        },
+        "positions": [
+            {
+                "index": 0,
+                "option": "CE",
+                "transaction": "sell",
+                "lots": {
+                    "value": 1,
+                    "label": 1
+                },
+                "strike": {
+                    "value": "OTM4",
+                    "label": "OTM4"
+                },
+                "target": false,
+                "targetType": {
+                    "value": "Percentage",
+                    "label": "Percentage"
+                },
+                "targetValue": 25,
+                "stoploss": true,
+                "stoplossType": {
+                    "value": "Percentage",
+                    "label": "Percentage"
+                },
+                "stoplossValue": 25,
+                "trailSL": true,
+                "trailSLType": {
+                    "value": "Percentage",
+                    "label": "Percentage"
+                },
+                "trailSLValue": 20
+            },
+            {
+                "index": 1,
+                "option": "PE",
+                "transaction": "sell",
+                "lots": {
+                    "value": 1,
+                    "label": 1
+                },
+                "strike": {
+                    "value": "OTM4",
+                    "label": "OTM4"
+                },
+                "target": false,
+                "targetType": {
+                    "value": "Percentage",
+                    "label": "Percentage"
+                },
+                "targetValue": 25,
+                "stoploss": true,
+                "stoplossType": {
+                    "value": "Percentage",
+                    "label": "Percentage"
+                },
+                "stoplossValue": 25,
+                "trailSL": true,
+                "trailSLType": {
+                    "value": "Percentage",
+                    "label": "Percentage"
+                },
+                "trailSLValue": 20
+            }
+        ],
+        "notes": "Short Stangle"
+    }
+}
